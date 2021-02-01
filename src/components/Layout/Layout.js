@@ -162,6 +162,7 @@ const Layout = ({ children, pageContext }) => {
           <Helmet>
             <title>Do Everything as Code</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
+            <meta name="description" content="">Find, share, evolve everything as code.  Increasing knowledge of and access to pipeline as code modules to sustainability impove our ability to safely and quickly release software.</meta>
           </Helmet>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
           <div className="site-wrapper overflow-hidden" ref={eleRef}>
