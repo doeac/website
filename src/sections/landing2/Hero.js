@@ -18,7 +18,7 @@ const Hero = () => {
     <>
       {/* <!-- Hero Area --> */}
       <div className="position-relative z-index-1 bg-squeeze pt-26 dark-mode-texts">
-        <div className="pos-abs-tr h-100 d-sm-none d-xs-none d-md-block">
+        <div className="pos-abs-tr h-100 d-none d-md-block">
           <img src={imgP} alt="" className="h-100" />
         </div>
         <div className="container position-static">
