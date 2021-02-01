@@ -18,6 +18,7 @@ import GlobalContext from "../../context/GlobalContext";
 import GlobalStyle from "../../utils/globalStyle";
 
 import imgFavicon from "../../assets/favicon.png";
+import imgLogoFull from "../../assets/image/logo-full.png";
 
 import { get, merge } from "lodash";
 
@@ -163,6 +164,23 @@ const Layout = ({ children, pageContext }) => {
             <title>Do Everything as Code</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
             <meta name="description" content="Find, share, evolve everything as code.  Increasing knowledge and access to pipeline as code modules to impove our ability to safely and quickly release software."></meta>
+            {/* <!-- Google / Search Engine Tags --> */}
+            <meta itemprop="name" content="Do Everything as Code"/>
+            <meta itemprop="description" content="Find, share, evolve everything as code.  Increasing knowledge and access to pipeline as code modules to impove our ability to safely and quickly release software."/>
+            <meta itemprop="image" content={imgLogoFull}/>
+
+            {/* <!-- Facebook Meta Tags --> */}
+            <meta property="og:url" content="https://doeac.io"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Do Everything as Code"/>
+            <meta property="og:description" content="Find, share, evolve everything as code.  Increasing knowledge and access to pipeline as code modules to impove our ability to safely and quickly release software."/>
+            <meta property="og:image" content={imgLogoFull}/>
+
+            {/* <!-- Twitter Meta Tags --> */}
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta name="twitter:title" content="Do Everything as Code"/>
+            <meta name="twitter:description" content="Find, share, evolve everything as code.  Increasing knowledge and access to pipeline as code modules to impove our ability to safely and quickly release software."/>
+            <meta name="twitter:image" content={imgLogoFull}></meta>
           </Helmet>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
           <div className="site-wrapper overflow-hidden" ref={eleRef}>
