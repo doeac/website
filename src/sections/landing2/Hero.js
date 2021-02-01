@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-
+import TextLoop from "react-text-loop";
 import { Select } from "../../components/Core";
 import imgP from "../../assets/image/patterns/globe-pattern.png";
 
@@ -35,7 +35,12 @@ const Hero = () => {
                     4,923 templates are available right now
                   </div>
                   <h1 className="font-size-11 mb-9 text-black-2">
-                    Find, share, evolve [pipeline] as code. Together.
+                    Find, share, evolve 
+                    <TextLoop>
+                    <span>pipeline</span>
+                    <span>infrastracture</span>
+                    <span>everything</span>
+                  </TextLoop>{" "}as code.
                   </h1>
                   <p className="font-size-5">
                   A community focused on improving access to and collaboration of “as code” modules to help increase human value received from software by sustainably improving our ability to safely and quickly release software.

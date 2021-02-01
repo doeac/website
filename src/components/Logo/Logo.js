@@ -9,7 +9,7 @@ const Logo = ({ white, height, className = "", ...rest }) => {
     <Link href="/">
       <a className={`d-block ${className}`} {...rest}>
         {white ? (
-          <img src={imgL1LogoWhite} alt="" height="67px" width="250px" />
+          <img src={imgL1LogoWhite} alt="" height="109px" width="250px" />
         ) : (
           <img src={imgL1Logo} alt="" height="67px" width="250px" />
         )}

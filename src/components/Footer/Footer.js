@@ -21,11 +21,10 @@ const Footer = () => {
                 {/* <!-- cta-content start --> */}
                 <div className="pb-xl-0 pb-9 text-xl-left text-center">
                   <h2 className="text-white font-size-8 mb-4">
-                    Most comprehensive job portal
+                    Most comprehensive 'as code' registry
                   </h2>
                   <p className="text-hit-gray font-size-5 mb-0">
-                    We must explain to you how all this mistaken idea of
-                    denouncing
+                    Feel the power of the dark side, the empire did nothing wrong.
                   </p>
                 </div>
                 {/* <!-- cta-content end --> */}
@@ -76,7 +75,7 @@ const Footer = () => {
                   <p className="mb-0 font-size-4 text-white">Contact us at</p>
                   <Link href="/#">
                     <a className="mb-0 font-size-4 font-weight-bold">
-                      support@uxtheme.net
+                      support@doeac.io
                     </a>
                   </Link>
                 </div>
